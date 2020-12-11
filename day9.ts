@@ -1033,9 +1033,8 @@ for (let i = 0; i < len9; i++) {
       if (numToTest === invalidNum) {
         sumToInvalidNum = numToTest
         sliceFinish = targetIndex + 1
-      } else if (numToTest > invalidNum) {
-        break
-      } else {
+      } else if (numToTest > invalidNum) break
+      else {
         increment++
         sumToInvalidNum = numToTest
       }
